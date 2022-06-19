@@ -1,0 +1,31 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+img {max-width:100%;}
+
+.header, .logo, .right-links {
+    display: flex;
+    justify-content: space-between;
+    height: 75px;
+}
+
+.right-links {
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.menu {
+    display: flex;
+    gap: 16px;
+}
+
+.logo {
+    flex-grow: 0;
+    max-width: 300px;
+}
