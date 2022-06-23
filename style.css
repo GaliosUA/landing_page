@@ -5,6 +5,9 @@
     list-style: none;
 }
 
+body {
+    overflow-x: hidden;
+}
 
 img {max-width:100%;}
 
@@ -144,6 +147,12 @@ img {max-width:100%;}
 
 .pictures-main .pictures img {
     height: 100%;
+}
+
+.pictures:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
 }
 
 .bottom {
